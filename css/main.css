@@ -1,0 +1,71 @@
+.mainNav{
+  border-bottom: 3px solid #000000;
+  background-color: #343965;
+}
+
+.branding {
+  padding: .5rem;
+  width: 26%;
+}
+
+header nav a{
+  color: #eb008a !important;
+}
+
+header nav a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.hero{
+  /*border: 3px solid #E74C3C;*/
+  background-color: #fff;
+  color: #E74C3C;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.about{
+  color: #fff;
+  padding-top: 2rem;
+  background-color: #343965;
+}
+.team{
+  padding-top: 2rem;
+  background-color: #fff;
+}
+
+form {
+  padding: 0 auto;
+}
+
+.contact-form__btn {
+  margin: 2rem 0;
+}
+
+.overlay{
+  opacity: 0;
+  position: absolute;
+}
+.card-porfolio:hover::after{
+  content: url(link.png);
+  background-color: #343965;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  padding-top: 7.5rem; 
+}
+.portfolio .card{
+  margin-bottom: 3.5rem;
+  position: relative;
+}
+
+.portfolio{
+  padding-top: 2rem;
+}
+footer a{
+  color: #E74C3C;
+}
