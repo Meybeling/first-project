@@ -73,6 +73,11 @@ form {
 .portfolio{
   padding-top: 2rem;
 }
-footer a{
-  color: #E74C3C;
+footer li a {
+  color: #eb008a !important;
+}
+
+footer li a :hover {
+  color: #fff !important;
+  text-decoration: none;
 }
