@@ -81,3 +81,7 @@ footer li a:hover {
   color: #343965 !important;
   text-decoration: none;
 }
+
+.tab li a {
+  color: #eb008a;
+}
